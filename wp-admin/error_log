@@ -1,0 +1,441 @@
+[21-Mar-2024 13:16:41 UTC] PHP Warning:  Attempt to read property "title" on null in /home/o7bkohrh318j/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Mar-2024 13:31:17 UTC] PHP Warning:  Attempt to read property "title" on null in /home/o7bkohrh318j/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Mar-2024 18:23:36 UTC] PHP Warning:  Attempt to read property "title" on null in /home/o7bkohrh318j/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[20-May-2024 14:16:03 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:16:28 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:16:44 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:16:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:17:05 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:17:23 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:17:23 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:17:57 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:19:40 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:20:07 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:20:13 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:20:51 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:20:51 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:21:50 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:21:51 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:21:53 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:22:55 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:23:46 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:24:09 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:25:21 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "ActionScheduler_IntervalSchedule" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:29:25 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "ActionScheduler_IntervalSchedule" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:29:47 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:30:12 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:30:15 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:30:19 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:30:29 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:30:29 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:30:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:31:07 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:31:07 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 14:33:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:34:08 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'developer' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->plugins_loaded, Noptin_Integrations->__construct, Noptin_Abstract_Integration->__construct, __, translate, get_translations_for_domain, _load_textdomain_just_in_time, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'developer' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->plugins_loaded, Noptin_Integrations->__construct, Noptin_Abstract_Integration->__construct, __, translate, get_translations_for_domain, _load_textdomain_just_in_time, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-taxonomy' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Taxonomy->register_taxonomies, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-post-type' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Post_Type->register_post_types, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'noptin-form' AND ((wp_posts.post_status = 'publish'))
+			 
+			 ORDER BY wp_posts.post_date DESC
+			  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->init, do_action('noptin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Hizzle\Noptin\Subscribers\Main::register_objects, Hizzle\Noptin\Subscribers\Records->__construct, Hizzle\Noptin\Subscribers\Records->subscriber_fields, get_noptin_subscriber_filters, get_noptin_subscriber_smart_tags, noptin_get_subscription_sources, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT wp_users.ID,wp_users.user_nicename,wp_users.user_email
+				 FROM wp_users
+				 WHERE 1=1
+				 ORDER BY user_login ASC
+				  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, CMB2_Bootstrap_270_Develop->include_cmb, cmb2_bootstrap, do_action('cmb2_admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CspmMetabox->cspm_progress_map_metabox, CspmMetabox->cspm_progress_map_settings_tabs, CspmMetabox->cspm_query_fields, CspmMetabox->cspm_get_all_users, get_users, WP_User_Query->__construct, WP_User_Query->query
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts 
+					 WHERE 1=1  AND ((wp_posts.post_type = 'cspm_post_type' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending')))
+					 
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CSProgressMap->cspm_add_carousel_image_sizes, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT * FROM wp_posts WHERE ID = 755 LIMIT 1 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, user_registration_install_pages_notice, get_post, WP_Post::get_instance
+[20-May-2024 14:58:37 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Privacy_Policy_Content::text_change_check, current_user_can, user_can, WP_User->has_cap, map_meta_cap, get_post, WP_Post::get_instance
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'developer' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->plugins_loaded, Noptin_Integrations->__construct, Noptin_Abstract_Integration->__construct, __, translate, get_translations_for_domain, _load_textdomain_just_in_time, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'developer' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->plugins_loaded, Noptin_Integrations->__construct, Noptin_Abstract_Integration->__construct, __, translate, get_translations_for_domain, _load_textdomain_just_in_time, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-taxonomy' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Taxonomy->register_taxonomies, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-post-type' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Post_Type->register_post_types, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT wp_users.ID,wp_users.user_nicename,wp_users.user_email
+				 FROM wp_users
+				 WHERE 1=1
+				 ORDER BY user_login ASC
+				  made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, CMB2_Bootstrap_270_Develop->include_cmb, cmb2_bootstrap, do_action('cmb2_admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CspmMetabox->cspm_progress_map_metabox, CspmMetabox->cspm_progress_map_settings_tabs, CspmMetabox->cspm_query_fields, CspmMetabox->cspm_get_all_users, get_users, WP_User_Query->__construct, WP_User_Query->query
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts 
+					 WHERE 1=1  AND ((wp_posts.post_type = 'cspm_post_type' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled' OR wp_posts.post_status = 'future' OR wp_posts.post_status = 'draft' OR wp_posts.post_status = 'pending')))
+					 
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CSProgressMap->cspm_add_carousel_image_sizes, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT * FROM wp_posts WHERE ID = 755 LIMIT 1 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, user_registration_install_pages_notice, get_post, WP_Post::get_instance
+[20-May-2024 15:00:38 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Privacy_Policy_Content::text_change_check, current_user_can, user_can, WP_User->has_cap, map_meta_cap, get_post, WP_Post::get_instance
+[20-May-2024 15:15:24 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'developer' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->plugins_loaded, Noptin_Integrations->__construct, Noptin_Abstract_Integration->__construct, __, translate, get_translations_for_domain, _load_textdomain_just_in_time, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 15:15:24 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-taxonomy' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Taxonomy->register_taxonomies, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 15:15:24 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-post-type' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Post_Type->register_post_types, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 15:15:24 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'noptin-form' AND ((wp_posts.post_status = 'publish'))
+			 
+			 ORDER BY wp_posts.post_date DESC
+			  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->init, do_action('noptin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Hizzle\Noptin\Subscribers\Main::register_objects, Hizzle\Noptin\Subscribers\Records->__construct, Hizzle\Noptin\Subscribers\Records->subscriber_fields, get_noptin_subscriber_filters, get_noptin_subscriber_smart_tags, noptin_get_subscription_sources, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 15:15:25 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'developer' LIMIT 1 made by require_once('wp-admin/admin.php'), auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 17:52:51 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'admin' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->plugins_loaded, Noptin_Integrations->__construct, Noptin_Abstract_Integration->__construct, __, translate, get_translations_for_domain, _load_textdomain_just_in_time, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 17:52:52 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-taxonomy' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Taxonomy->register_taxonomies, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 17:52:52 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'acf-post-type' AND ((wp_posts.post_status = 'publish' OR wp_posts.post_status = 'acf-disabled'))
+			 
+			 ORDER BY wp_posts.menu_order ASC, wp_posts.post_title ASC
+			  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF->init, do_action('acf/init'), WP_Hook->do_action, WP_Hook->apply_filters, ACF_Post_Type->register_post_types, ACF_Internal_Post_Type->get_posts, ACF_Internal_Post_Type->get_raw_posts, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 17:52:52 UTC] WordPress database error Table 'kidsrdb.wp_posts' doesn't exist for query SELECT   wp_posts.*
+			 FROM wp_posts 
+			 WHERE 1=1  AND wp_posts.post_type = 'noptin-form' AND ((wp_posts.post_status = 'publish'))
+			 
+			 ORDER BY wp_posts.post_date DESC
+			  made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Noptin->init, do_action('noptin_init'), WP_Hook->do_action, WP_Hook->apply_filters, Hizzle\Noptin\Subscribers\Main::register_objects, Hizzle\Noptin\Subscribers\Records->__construct, Hizzle\Noptin\Subscribers\Records->subscriber_fields, get_noptin_subscriber_filters, get_noptin_subscriber_smart_tags, noptin_get_subscription_sources, get_posts, WP_Query->query, WP_Query->get_posts
+[20-May-2024 17:52:52 UTC] WordPress database error Table 'kidsrdb.wp_users' doesn't exist for query SELECT * FROM wp_users WHERE user_login = 'admin' LIMIT 1 made by require_once('wp-admin/admin.php'), auth_redirect, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[20-May-2024 18:07:36 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:08:12 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:08:16 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:08:48 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:08:48 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "ActionScheduler_IntervalSchedule" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[20-May-2024 18:10:04 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:10:59 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:15:05 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:15:09 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:15:20 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:19:19 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:20:55 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:20:58 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:21:01 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #1 must be of type array, bool given in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php:3701
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php(3701): array_merge()
+#1 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): CSProgressMap->cspm_regenerate_map_markers()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/o7bkohrh318j/public_html/wp-admin/admin.php(419): do_action()
+#5 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 3701
+[20-May-2024 18:21:03 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #1 must be of type array, bool given in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php:3701
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php(3701): array_merge()
+#1 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): CSProgressMap->cspm_regenerate_map_markers()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/o7bkohrh318j/public_html/wp-admin/admin.php(419): do_action()
+#5 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 3701
+[20-May-2024 18:21:06 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:21:52 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:21:52 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:22:02 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 18:22:06 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[20-May-2024 22:57:08 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 13:45:51 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 13:46:39 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 13:47:21 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 13:58:08 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:01:33 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:05:58 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:06:19 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:06:38 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:07:04 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:07:13 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:07:58 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:08:28 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:18:48 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:20:27 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:30:50 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:37:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 14:39:12 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 15:18:14 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 15:18:31 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 22:40:57 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 22:43:29 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[21-May-2024 22:44:30 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:46:14 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:55:41 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:55:48 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:55:52 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:56:14 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:56:19 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 00:56:21 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 11:49:22 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 13:00:47 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 13:05:37 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 13:17:43 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 13:24:27 UTC] PHP Deprecated:  Optional parameter $args declared before required parameter $i is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox/includes/types/CMB2_Type_Multi_Base.php on line 34
+[22-May-2024 14:12:07 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:12:07 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:12:30 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:12:30 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:12:48 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:12:48 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:22:33 UTC] PHP Deprecated:  Optional parameter $field_escaped_value declared before required parameter $field_type_object is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox-field-select2/cmb-field-select2.php on line 86
+[22-May-2024 14:22:34 UTC] PHP Deprecated:  Optional parameter $type declared before required parameter $field_id is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox/includes/rest-api/CMB2_REST.php on line 764
+[22-May-2024 14:23:48 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 14:23:48 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:44:50 UTC] PHP Deprecated:  Optional parameter $field_escaped_value declared before required parameter $field_type_object is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox-field-select2/cmb-field-select2.php on line 86
+[22-May-2024 15:44:51 UTC] PHP Deprecated:  Optional parameter $field_escaped_value declared before required parameter $field_type_object is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox-field-select2/cmb-field-select2.php on line 86
+[22-May-2024 15:44:52 UTC] PHP Deprecated:  Optional parameter $type declared before required parameter $field_id is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox/includes/rest-api/CMB2_REST.php on line 764
+[22-May-2024 15:44:52 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:44:52 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:45:18 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:45:18 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:45:26 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:45:26 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:48:46 UTC] PHP Deprecated:  Optional parameter $field_escaped_value declared before required parameter $field_type_object is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox-field-select2/cmb-field-select2.php on line 86
+[22-May-2024 15:48:47 UTC] PHP Deprecated:  Optional parameter $type declared before required parameter $field_id is implicitly treated as a required parameter in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox/includes/rest-api/CMB2_REST.php on line 764
+[22-May-2024 15:48:47 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:48:47 UTC] PHP Deprecated:  version_compare(): Passing null to parameter #1 ($version1) of type string is deprecated in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:49:34 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:49:43 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:49:46 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:51:42 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:51:58 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:52:32 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:53:09 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:53:12 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:53:12 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:53:19 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 15:53:19 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[22-May-2024 16:35:57 UTC] PHP Warning:  Undefined array key "fields" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/admin/libs/metabox-conditionals/cmb2-conditionals.php on line 171
+[22-May-2024 17:04:17 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[22-May-2024 17:04:17 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[23-May-2024 01:51:42 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[23-May-2024 01:51:42 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[23-May-2024 01:51:54 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[23-May-2024 01:52:00 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[23-May-2024 14:57:09 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:37:17 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:37:36 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:48:10 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:48:28 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:48:36 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:48:46 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:49:30 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:49:45 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:49:46 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 15:49:48 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[23-May-2024 16:03:33 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[23-May-2024 16:03:33 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[23-May-2024 16:03:43 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[23-May-2024 16:03:43 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[23-May-2024 21:45:47 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[24-May-2024 13:32:11 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[24-May-2024 13:32:11 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[24-May-2024 13:42:22 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[24-May-2024 13:42:22 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[24-May-2024 17:47:29 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:53:14 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:54:01 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:54:05 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:54:55 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:58:23 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:58:40 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:58:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:58:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:59:10 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:59:15 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 17:59:56 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 18:11:34 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 18:12:34 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 18:14:21 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 18:14:27 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[24-May-2024 18:20:22 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[24-May-2024 18:20:22 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
+[26-May-2024 15:10:23 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:10:52 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:11:12 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:11:40 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:11:40 UTC] PHP Fatal error:  Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+[26-May-2024 15:11:53 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:12:08 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:12:45 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:12:55 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:14:07 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:14:26 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:14:26 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:16:08 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:16:55 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:17:36 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:24:24 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:24:32 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:31:40 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:31:40 UTC] PHP Warning:  Attempt to read property "plugin_version" on null in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 1963
+[26-May-2024 15:40:04 UTC] PHP Warning:  Undefined array key "taxonomy_name" in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map-list-and-filter/cspml-list-filter.php on line 5121
+[26-May-2024 15:40:04 UTC] PHP Warning:  Undefined array key 1 in /home/o7bkohrh318j/public_html/wp-includes/class-wp-meta-query.php on line 750
