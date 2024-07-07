@@ -1,0 +1,1162 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+/*div#cspml_loading_container_map1148 {*/
+/*    display: none !important;*/
+/*}*/
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    height: 240px;
+}
+.home .card-header img {
+    height: 185px;
+}
+
+.home .elementor-spacer {
+    display: none;
+}
+.logged-in .ast-header-account-wrap {
+    background: unset !important;
+}
+.ast-primary-header-bar, .site-below-footer-wrap[data-section="section-below-footer-builder"] {
+    background-color: #dabdbd00;
+    border: 0;
+}
+.cspm_marker_popup_content {
+    display: none;
+}
+.elementor-element.elementor-element-6a92397.elementor-widget.elementor-widget-text-editor {
+    font-size: 15px;
+}
+a.ast-header-account-link.ast-header-account-type-text.ast-account-action-link {
+    color: white;
+    font-weight: 700;
+}
+.ast-header-account-wrap {
+    background: #679f6e;
+    padding: 9px 25px;
+    border-radius: 10px;
+}
+div#cspml_listings_container {
+    position: absolute !important;
+    top: 62px;
+}
+.pending-disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+form#cspml_listings_filter_form {
+    visibility: hidden;
+}
+.hidden{
+    display:none;
+}
+.card-title {
+    width: 100%;
+}
+span.bookmark-resto {
+    position: absolute;
+    right: 15px;
+}
+span.bookmark-resto img {
+    width: 30px !important;
+}
+/* div#cspml_listings_container {
+    visibility: hidden;
+    position: absolute;
+    top: -30px;
+    display:none;
+} */
+a.password_preview.dashicons.dashicons-hidden {
+    display: inline-block;
+    width: 25px; /* Set width according to your image */
+    height: 20px; /* Set height according to your image */
+    background-image: url('https://kidsfriendly.world/wp-content/uploads/2024/04/close.png'); /* Replace 'eye_icon.png' with your image URL */
+    background-size: cover; /* Adjusts the image size */
+    text-indent: -9999px; /* Hides the text content */
+}
+
+
+a.password_preview.dashicons.dashicons-visibility{
+    display: inline-block;
+    width: 28px; /* Set width according to your image */
+    height: 20px; /* Set height according to your image */
+    background-image: url('https://kidsfriendly.world/wp-content/uploads/2024/04/open-1.png'); /* Replace 'eye_icon.png' with your image URL */
+    background-size: cover; /* Adjusts the image size */
+    text-indent: -9999px; /* Hides the text content */
+}
+
+
+
+a.password_preview.dashicons.dashicons-visibility {}
+div#previewContainer img {
+    margin: 2px;
+}
+.spacer.mt-2.mb-2 {
+    border: 1px solid gray;
+}
+.show{
+    display:block;
+}
+.elementor-element.elementor-element-621865b.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: 0;
+}
+form#registration-form input, form#registration-form textarea, form#registration-form select {
+    margin-bottom: 10px;
+}
+button.user-registration-submit-Button.btn.button {
+    background-color: #5E487E;
+    color: #FEFEFE;
+}
+#store-post-submission .form-group {
+    margin-bottom: 10px;
+}
+span.unbookmark-resto.like-btn.fav img,
+span.unbookmark-resto.like-btn.not-fav img {
+    width: auto;
+}
+form.noptin-optin-form.noptin-form-single-line {
+    text-align: left;
+}
+
+.noptin-big.noptin-padded {
+    padding: 0;
+    margin-top: 10px;
+}
+#store-post-submission input[type="checkbox"] {
+    transform: scale(1.6);
+    margin: 10px 12px;
+}
+
+button.slick-arrow {
+    background: unset;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 45px !important;
+}
+/*button.slick-next.slick-arrow, button.slick-prev.slick-arrow {*/
+/*    display: none !important;*/
+/*}*/
+.ast-container {
+   max-width: 1210px;
+}
+body {
+    background-image: url("https://kidsfriendly.world/wp-content/uploads/2024/03/Group-1-2.png") !important;
+    background-size: cover;
+    background-color: white !important;
+    background-repeat: no-repeat;
+}
+.scrolled .ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+    background-color: #000000cc;
+}
+.newsletter-title {
+    color: #679f6e;
+    font-weight: 500;
+}
+section#block-8 {
+    display: none;
+}
+
+footer p, footer a.menu-link{
+   color: #679f6e !important;
+    font-weight: 500;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.alert-message {
+    position: absolute;
+    background: green;
+    color: white;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    line-height: 1.8;
+    border-radius: 10px;
+    right: 0;
+    z-index: 9999999999999;
+}
+.container-xl {
+    padding: 0;
+    background-color: #ffffff00 !important;
+    margin: 0;
+}
+.page-id-16 .bg-light-subtle {
+    background-color: unset !important;
+}
+.scrolled a.menu-link {
+    color: white !important;
+    font-weight: 700 !important;
+}
+.card-body {
+    height: 440px;
+}
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+    border:0;
+    background-color: unset;
+}
+.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-2-equal.ast-builder-grid-row-tablet-2-equal.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+    background: unset;
+    border: 0;
+}
+*, h1 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+p {
+    line-height: 2;
+}
+div#card-12 {
+    padding: 18px 48px !important;
+}
+.elementor-element.elementor-element-70735e3.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: 70px;
+}
+#grid-card-kids .e-con-inner .elementor-element {
+    margin: 0px;
+    height: 100%;
+}
+#grid-card-kids .e-con-inner .elementor-element {
+    margin: 5px 7px !important;
+    width:366px;
+}
+.tnp-field {
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+}
+input.tnp-submit {
+    background: #5E487E !important;
+    border-radius: 9px;
+}
+.card-footer {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    left:0;
+    margin-bottom: 2px;
+}
+ul#astra-footer-menu li a {
+    color: white;
+}
+div#card-8 {
+    position: relative;
+    top: -75px;
+    left: 7px;
+}
+
+.esz_post_link a {
+    color: white;
+    text-decoration: unset !important;
+}
+.home .esz_slide_box {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#home-post-sec img.esz_post_thumb_img.elementor-animation- {
+    height: unset;
+}
+#home-post-sec .esz_post_thumb {
+    margin-bottom: 0;
+}
+#home-post-sec .esz_post_thumb {
+    margin-bottom: -110px;
+}
+.esz_post_link {
+    background: #679F6E;
+    padding: 13px;
+    border-radius: 7px;
+    width: 100%;
+    text-align: center;
+}
+/*1*/
+div#card-4 {
+    position: relative;
+    top: -280px;
+    left: -3px;
+}
+div#card-7 {
+    position: relative;
+    top: -103px;
+    left: -10px;
+}
+div#card-22 {
+    position: relative;
+    top: -250px;
+}
+div#card-10 {
+    position: relative;
+    top: -465px;
+    left: -2px;
+}
+div#card-2 {
+    position: relative;
+    left: -4px;
+}
+div#card-12 {
+    position: relative;
+    top: -73px;
+    left: 11px;
+}
+/*2*/
+div#card-5 {
+    position: relative;
+    top: -155px;
+    left: 3px;
+}
+div#card-8 {
+    position: relative;
+    top: -145px;
+    left: 4px;
+}
+div#card-1 {
+    height: 169px !important;
+}
+div#card-8 {
+    height: 366px !important;
+}
+div#card-9 {
+    height: 366px !important;
+}
+div#card-11 {
+    position: relative;
+    top: -135px;
+    left: 4px;
+}
+div#card-13 {
+    position: relative;
+    top: -452px;
+    height: 336px !important;
+    left: 0px;
+}
+div#card-1 {
+    top: 5px;
+}
+div#card-133 {
+    position: relative;
+    top: -300px;
+    left: -2px;
+}
+#div#grid-card-kids .elementor-widget-container {
+    color: white;
+}
+
+div#card-3 img.attachment-full.size-full.wp-image-134 {
+    height: 455px;
+}
+/*3*/
+div#card-9 {
+    position: relative;
+    top: -80px;
+    left: 10px;
+}
+div#card-12 {
+    position: relative;
+    top: -72px;
+    left: 11px;
+    height: 348px !important;
+}
+.noptin-inpost-main-wrapper.noptin-form-id-700.noptin-optin-main-wrapper {
+    background: unset;
+}
+
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+    background: unset !important;
+    min-height: 0px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.logged-in .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-button-1 {
+    display: none;
+}
+.site-header-primary-section-right-center.site-header-section.ast-flex.ast-grid-right-center-section {
+    display: none;
+}
+.noptin-form-footer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.noptin-form-header.no-image {
+    display: none;
+}
+input.user-registration-Button.button {
+    border-radius: 10px;
+    width: 100%;
+}
+div#user-registration-form-446 button.btn.button.ur-submit-button {
+    width: 100%;
+    background: #5e487e;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 {
+    display: none;
+}
+
+.logged-in .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 {
+    display: block;
+}
+.ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: #5e487e;
+    border-radius: 10px;
+    color: white;
+}
+@media only screen and (max-width: 1024px) {
+
+body small.priceMax {
+    left: 155px; 
+}
+div#search-submit {
+    padding: 6px 10px;
+}
+button.btn.btn-primary {
+    padding: 3px 10px;
+    width: 100px;
+}
+.home .col-md-2 {
+    width: 24.8%;
+}
+div#select-cat {
+    padding: 1px;
+}
+#grid-card-kids .e-con-inner .elementor-element {
+    margin: 5px 7px !important;
+    height: 100% !important;
+}
+.elementor-element.elementor-element-544f59c.e-flex.e-con-boxed.e-con.e-parent {
+    margin: 0;
+}
+#grid-card-kids .e-con-inner div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#grid-card-kids .e-con-inner .elementor-element{
+    width:100% !important;
+    text-align: center;
+}
+.elementor-element.elementor-element-bc2d7c0.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: 65px;
+}
+.home .card-footer a {
+    padding: 10px;
+}
+footer#colophon .ast-builder-grid-row-3-equal .ast-builder-grid-row {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-2-equal.ast-builder-grid-row-tablet-2-equal.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+    padding: 0 40px;
+}
+.elementor-element.elementor-element-4602478.elementor-widget.elementor-widget-spacer {
+    display: none;
+}
+aside.footer-widget-area.widget-area.site-footer-focus-item.footer-widget-area-inner {
+    text-align: center;
+    margin-top: 15px;
+}
+}
+@media only screen and (max-width: 800px) {
+button.btn.btn-primary {
+    padding: 2px 10px;
+    width: 100px;
+}
+
+.home .col-md-2 {
+    width: 33%;
+}
+div#ast-mobile-header {
+    padding: 0 25px;
+}
+.site-primary-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-3-equal.ast-builder-grid-row-tablet-3-equal.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ast-builder-footer-grid-columns.site-below-footer-inner-wrap.ast-builder-grid-row {
+    grid-template-columns: unset;
+}
+}
+@media only screen and (max-width: 768px) {
+nav a.menu-link {
+    background: var(--ast-global-color-4) !important;
+    color: #679f6e !important;
+}
+.current-menu-item a.menu-link {
+    color: #679f6e !important;
+}
+ hr.bg-white {
+    margin: 0;
+}
+footer .col-md-4 {
+    margin-bottom: 4px !important;
+}
+
+
+.noptin-form-fields {
+    text-align: center;
+}
+.container.custom-footer .col-md-4 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+    display: none;
+}
+.container.custom-footer .col-md-6 {
+    width: 100% !important;
+    text-align: center !important;
+}
+body small.priceMin {
+    left: 65px;
+}
+.elementor-element.elementor-widget.elementor-widget-image .elementor-widget-container img {
+        width: 99% !important;
+    }
+#grid-card-kids .e-con-inner .elementor-element {
+        width: 90% !important;
+        text-align: center;
+        margin: 5px auto !important;
+        vertical-align: middle;
+        justify-content: center;
+    }
+div#card-2,  
+div#card-3,
+div#card-6,
+div#card-7,
+div#card-133{
+    left: -7px !important;
+}
+small.priceMin {
+    left: 60px;
+}
+body small.priceMax {
+    left: 166px;
+}
+.home div#search-submit {
+    padding: 8px 5px;
+}
+.elementor-element.elementor-element-70735e3.e-flex.e-con-boxed.e-con.e-parent {
+    padding: 0 40px;
+}
+.elementor-element.elementor-widget.elementor-widget-image .elementor-widget-container img {
+    width: 100% !important;
+}
+div#custom-search-bar span#inputGroupPrepend {
+    width: 55px;
+}
+}
+@media only screen and (max-width: 600px) {
+.elementor.elementor-621 .e-con-inner {
+    margin: -45px 0 !important;
+}
+.ast-mobile-header-content.content-align-flex-start {
+    position: absolute;
+    width: 92%;
+}
+svg.ast-mobile-svg.ast-menu-svg {
+    fill: #679F6E !important;
+}
+div#card-7 {
+    margin: 0 !important;
+    top: -20px !important;
+}
+div#card-8 {
+    top: -35px !important;
+}
+div#card-9 {
+    top: -25px !important;
+}
+div#card-10 {
+    top: -10px !important;
+}
+body small.priceMin {
+    left: 42px;
+}
+a.read-more.posts {
+    font-size: 12px;
+}
+footer .col-md-6.text-md-right a {
+    font-size: 14px;
+}
+div#card-2,  
+div#card-3,
+div#card-6,
+div#card-7,
+div#card-133{
+    left: -1px !important;
+}
+small.priceMin {
+    left: 40px;
+}
+small.priceMin {
+    left: 43px; 
+}
+body small.priceMax {
+    left: 125px;
+}
+#grid-card-kids .e-con-inner div {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+div#search-submit {
+    width: 90px;
+}
+    div#custom-search-bar span#inputGroupPrepend {
+        width: 35px;
+    }
+    .home div#search-submit {
+        padding: 3px 5px;
+    }
+div#grid-card-kids .elementor-widget-image img {
+    width: 100%;
+}   
+.card-title h2 {
+    font-size: 17px;
+}
+span.bookmark-resto img {
+    width: 26px !important;
+}
+
+
+}
+@media only screen and (max-width: 568px) {
+footer .col-md-6.text-md-right a {
+    width: 100% !important;
+    display: block !important;
+}
+footer .col-md-6.text-md-right {
+    margin-top: 1px;
+}
+.elementor-element.elementor-element-bc2d7c0.e-flex.e-con-boxed.e-con.e-parent {
+        margin-top: -50px;
+    }
+div#card-3 {
+    top: -3px !important;
+}
+.elementor-element-7cac166 .e-con-inner {
+    margin-top: -30px;
+}
+.elementor-element-22955e7 .elementor-widget-container {
+    margin-bottom: -7px !important;
+}
+body small.priceMax {
+    left: 170px;
+}
+div#card-12 {
+    top: -40px !important;
+}
+    div#card-13 {
+        top: -70px !important;
+    }
+div#card-133 {
+    top: -95px !important;
+}
+div#card-7 {
+    margin: 0 !important;
+    top: -34px !important;
+}
+div#card-9 {
+    top: -55px !important;
+}
+div#card-10 {
+    top: -49px !important;
+}
+div#card-11 {
+    top: -44px !important;
+}
+
+div#card-8 {
+    top: -62px !important;
+}
+.home .col-md-2 {
+    width: 50%;
+}
+.card-footer .container.mt-2.mb-4 {
+    padding: 0 22px;
+}
+.col-sm.text-left.p-0 img {
+    width: 15%;
+    float: left;
+    position: relative;
+    top: 4px;
+}
+div#card-4 {
+    top: -5px !important;
+}
+}
+@media only screen and (max-width: 480px) {
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default {
+    padding: 0 !important;
+}
+.card-footer .row div {
+    width: 50%;
+    margin: 0 !important;
+    /* display: inline; */
+}
+.elementor-element.elementor-element-7cac166.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: -190px;
+}
+.card-body {
+    height: 515px;
+}
+.elementor-element.elementor-element-7cac166.e-flex.e-con-boxed.e-con.e-parent .e-con-inner {
+    margin-bottom: 0px !important;
+}
+div#card-12 {
+    top: -75px !important;
+}
+.codespacing_progress_map_area.cspm_linear_gradient_bg {
+    margin-top: -255px;
+}
+div#card-133 {
+    top: -123px !important;
+}
+div#card-13 {
+        top: -95px !important;
+    }
+div#card-2 {
+    top: -15px !important;
+}
+.elementor-element.elementor-element-bc2d7c0.e-flex.e-con-boxed.e-con.e-parent {
+        margin-top: -10px;
+    }
+div#card-8 {
+    top: -115px !important;
+}
+div#card-11 {
+    top: -85px !important;
+}
+div#card-10 {
+    top: -95px !important;
+}
+div#card-9 {
+    top: -105px !important;
+}
+div#card-7 {
+    margin: 0 !important;
+    top: -67px !important;
+}
+div#card-5 {
+    top: -20px !important;
+}
+div#card-6 {
+    top: -15px !important;
+}
+div#card-3 {
+    top: -35px !important;
+}
+div#card-4 {
+    top: -30px !important;
+}
+.home .e-con-inner {
+    margin-bottom: 45px !important;
+    margin-top: -45px !important;
+}
+body small.priceMin {
+    left: 45px;
+}
+body small.priceMax {
+    left: 152px;
+}
+.card-header img {
+    width: 600px;
+}
+.home h3.elementor-heading-title.elementor-size-default {
+    font-size: 29px !important;
+    margin: 0 !important;
+    padding: 0;
+}
+div#cspml_container {
+    margin-top: 160px;
+}
+.elementor-element.elementor-element-7cac166.e-flex.e-con-boxed.e-con.e-parent .e-con-inner {
+    margin-top: 20px !important;
+}
+.slide-container.swiper {
+    padding: 0;
+}
+}
+@media only screen and (max-width: 431px) {
+        div#card-133 {
+        top: -170px !important;
+    }
+    div#card-12 {
+        top: -87px !important;
+    }
+img.custom-logo {
+    width: 50px;
+}
+    #grid-card-kids div#card-8 {
+        margin-top: -57px !important;
+    }
+  .home .col-sm.text-left.p-0 img {
+        width: 10% !important;
+        float: left;
+        position: relative;
+        top: 4px;
+        left: -2px;
+    }
+.codespacing_progress_map_area.cspm_linear_gradient_bg {
+    margin-top: -75px;
+}
+.elementor-element.elementor-element-7cac166.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: -40px;
+}
+    div#card-2 {
+        top: -38px !important;
+    }
+    div#card-3 {
+        top: -80px !important;
+    }
+    .home .e-con-inner {
+        margin-bottom: 15px !important;
+        margin-top: -85px !important;
+    }
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default {
+    padding: 0 !important;
+}
+body small.priceMax {
+    left: 130px;
+}
+#grid-card-kids div#card-8 {
+    margin-top: -150px !important;
+}
+div#card-7 {
+        top: -138px !important;
+    }
+   div#card-5 {
+        top: -69px !important;
+    }
+    div#card-6 {
+        top: -67px !important;
+    }
+.card-body {
+    height: 480px;
+}
+div.cspm_zoom_in_control img, div.cspm_zoom_in_control svg.cspm_svg, div.cspm_zoom_out_control img, div.cspm_zoom_out_control svg.cspm_svg {
+    line-height: 0 !important;
+    width: 6px !important;
+}
+.gmnoprint.gm-style-mtc-bbw button {
+    font-size: 12px !important;
+}
+    div#card-4 {
+        top: -77px !important;
+    }
+    #grid-card-kids div#card-8 {
+        margin-top: -84px !important;
+    }
+        div#card-9 {
+        top: -108px !important;
+    }
+        div#card-10 {
+        top: -102px !important;
+    }
+div#card-11 {
+        top: -96px !important;
+    }
+        div#card-11 {
+        top: -95px !important;
+    }
+       div#card-13 {
+        top: -125px !important;
+    }
+    .elementor-element.elementor-element-bc2d7c0.e-flex.e-con-boxed.e-con.e-parent .e-con-inner {
+    margin-top: -50px !important;
+}
+    div#cspml_container {
+        margin-top: 102px;
+    }
+        .elementor-element.elementor-element-7cac166.e-flex.e-con-boxed.e-con.e-parent .e-con-inner {
+        margin-top: -15px !important;
+    }
+}
+@media only screen and (max-width: 415px) {
+        .card-body {
+        height: 460px;
+    }
+    .card-content {
+    text-align: left;
+    color: #333;
+    padding: 7px 0;
+}
+       #grid-card-kids div#card-8 {
+        margin-top: -85px !important;
+    }
+    div#card-7 {
+        top: -43px !important;
+    }
+    div#card-7 img {
+        margin-top: 0px;
+    }
+    body small.priceMin {
+        left: 45px !important;
+    }
+    .elementor-element.elementor-element-7cac166.e-flex.e-con-boxed.e-con.e-parent .e-con-inner {
+        margin-top: -30px !important;
+    }
+#grid-card-kids .e-con-inner div {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+         body small.priceMax {
+        left: 235px !important;
+    }
+
+div#card-7 img {
+        margin-top: -191px;
+    }
+ 
+.home .col-md-2 {
+    width: 100%;
+}
+    div#search-submit {
+        width: 65px;
+    }
+.col-sm.text-left.p-0 img {
+    width: 8%;
+    float: left;
+    position: relative;
+    top: 4px;
+}
+button#search-submit {
+    position: relative;
+    left: 290px;
+}
+}
+@media only screen and (max-width: 391px) {
+div#card-2 img {
+    margin-top: -20px !important;
+}
+div#card-3 {
+    top: 6px !important;
+}
+    div#card-5 {
+        top: 14px !important;
+    }
+div#card-7 {
+    top: 28px !important;
+}
+    div#card-8 {
+        top: -30px !important;
+    }
+    div#card-11 {
+        top: -10px !important;
+    }
+    div#card-10 {
+        top: -17px !important;
+    }
+        .card-body {
+        height: 455px;
+    }
+div#card-9 {
+        top: -23px !important;
+    }
+div#card-6 {
+        top: 14px !important;
+    }
+    div#card-4 {
+        top: 8px !important;
+    }
+    #grid-card-kids img.attachment-full.size-full.wp-image-134 {
+        margin-top: -105px;
+    }
+div#card-3 img {
+    margin-top: -50px;
+}
+button#search-submit {
+    position: relative;
+    left: 269px;
+}
+#grid-card-kids div#card-8 {
+    margin-top: -105px !important;
+}
+}
+@media only screen and (max-width: 375px) {
+div#card-7 {
+    top: -85px !important;
+}
+div#card-3 img {
+    margin-top: -65px;
+}
+#grid-card-kids div#card-8 {
+    margin-top: -163px !important;
+}
+}
+@media only screen and (max-width: 361px) {
+    div#card-7 img {
+        margin-top: -10px;
+    }
+        div#card-6 {
+        top: 3px !important;
+    }
+           div#card-7 {
+        top: 0px !important;
+    }
+    #grid-card-kids div#card-8 {
+    margin-top: -35px !important;
+}
+        body small.priceMax {
+        left: 211px !important;
+    }
+    #grid-card-kids img.attachment-full.size-full.wp-image-134 {
+        margin-top: -52px;
+    }
+   div#card-2 img {
+        margin-top: -48px !important;
+    }
+div#card-3 img {
+    margin-top: 0px;
+}
+    div#card-11 {
+        top: -130px !important;
+    }
+div#card-7 img {
+    margin-top: -170px;
+}
+div#card-13 img {
+    margin-top: -140px !important;
+}
+    div#card-12 {
+        top: -124px !important;
+    }
+#grid-card-kids div#card-8 {
+        margin-top: -33px !important;
+    }
+     div#card-9 {
+        top: -143px !important;
+    }
+    div#card-10 {
+        top: -137px !important;
+    }
+div#card-4 {
+    top: -75px !important;
+} 
+div#card-5 {
+    top: -70px !important;
+}
+    div#card-6 img {
+        margin-top: -74px;
+    }
+    .elementor-element.elementor-element-bc2d7c0.e-flex.e-con-boxed.e-con.e-parent {
+        margin-top: 100px;
+    }
+body small.priceMax {
+    position: absolute;
+    font-size: 10px;
+    left: 207px;
+    z-index: 999999999;
+}
+    div#card-133 {
+        top: -55px !important;
+    }
+       div#card-13 {
+        top: -15px !important;
+    }
+    #grid-card-kids div#card-8 {
+        margin-top: -14px !important;
+    }
+
+div#card-3 {
+    top: -75px !important;
+}
+
+button#search-submit {
+    position: relative;
+    left: 240px;
+}
+div#card-7 img.attachment-full.size-full.wp-image-106 {
+    height: 100%;
+}
+div#card-8 {
+    top: -150px !important;
+}
+}
+@media only screen and (max-width: 321px) {
+       #grid-card-kids div#card-8 {
+        margin-top: -65px !important;
+    }
+        div#card-7 {
+        top: -35px !important;
+    }
+        .elementor-element.elementor-element-bc2d7c0.e-flex.e-con-boxed.e-con.e-parent {
+        margin-top: 125px;
+    }
+.codespacing_progress_map_area.cspm_linear_gradient_bg {
+        margin-top: -40px;
+    }
+    .home .e-con-inner {
+        margin-bottom: 10px !important;
+        margin-top: -90px !important;
+    }
+    div#card-2 {
+        top: -49px !important;
+    }
+    div#card-4 {
+        top: -101px !important;
+    }
+       div#card-6 {
+        top: -25px !important;
+    }
+div#card-5 {
+        top: -97px !important;
+    }
+div#card-3 {
+    top: -100px !important;
+}
+div#ast-mobile-header {
+    padding: 0 15px;
+}
+span.site-title a {
+font-size: 20px;
+}
+span.site-logo-img {
+    width: 60px;
+}
+    body small.priceMax {
+        left: 192px !important;
+    }
+        div#card-7 img {
+        margin-top: -185px;
+    }
+div#card-3 img {
+    margin-top: -35px;
+}
+body small.priceMax {
+    position: absolute;
+    font-size: 10px;
+    left: 187px;
+    z-index: 999999999;
+}
+button#search-submit {
+    position: relative;
+    left: 200px;
+}
+}

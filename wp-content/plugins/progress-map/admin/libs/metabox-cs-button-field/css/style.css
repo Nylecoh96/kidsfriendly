@@ -1,0 +1,61 @@
+
+a.cs_button{
+	font-size:12px;
+	text-decoration:none;
+	padding:10px 15px;
+	text-align:center;
+	background:#2c3d4f;
+	cursor:pointer;	
+	color:#fff;
+	-webkit-box-shadow: 2px 2px 0px #dededc; 
+	-moz-box-shadow: 2px 2px 0px #dededc; 
+	box-shadow: 2px 2px 0px #dededc;
+	display:inline-block;
+	border-radius:2px;
+	font-weight:600;
+}
+
+a.cs_button:hover{
+	box-shadow: -2px -2px 0px #dededc;
+}
+
+span.cs_loading{
+    -webkit-animation-name: cs_blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: cs_blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: cs_blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+	
+	color:red;
+	display:none;
+}
+
+@-moz-keyframes cs_blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes cs_blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes cs_blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+

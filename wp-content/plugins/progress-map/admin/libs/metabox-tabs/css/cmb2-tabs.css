@@ -1,0 +1,134 @@
+/*! jQuery UI - v1.12.1 - 2016-11-08
+* http://jqueryui.com
+* Includes: core.css, tabs.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?scope=&folderName=base&cornerRadiusShadow=8px&offsetLeftShadow=0px&offsetTopShadow=0px&thicknessShadow=5px&opacityShadow=30&bgImgOpacityShadow=0&bgTextureShadow=flat&bgColorShadow=666666&opacityOverlay=30&bgImgOpacityOverlay=0&bgTextureOverlay=flat&bgColorOverlay=aaaaaa&iconColorError=cc0000&fcError=5f3f3f&borderColorError=f1a899&bgTextureError=flat&bgColorError=fddfdf&iconColorHighlight=777620&fcHighlight=777620&borderColorHighlight=dad55e&bgTextureHighlight=flat&bgColorHighlight=fffa90&iconColorActive=ffffff&fcActive=ffffff&borderColorActive=003eff&bgTextureActive=flat&bgColorActive=007fff&iconColorHover=555555&fcHover=2b2b2b&borderColorHover=cccccc&bgTextureHover=flat&bgColorHover=ededed&iconColorDefault=777777&fcDefault=454545&borderColorDefault=c5c5c5&bgTextureDefault=flat&bgColorDefault=f6f6f6&iconColorContent=444444&fcContent=333333&borderColorContent=dddddd&bgTextureContent=flat&bgColorContent=ffffff&iconColorHeader=444444&fcHeader=333333&borderColorHeader=dddddd&bgTextureHeader=flat&bgColorHeader=e9e9e9&cornerRadius=3px&fwDefault=normal&fsDefault=1em&ffDefault=Arial%2CHelvetica%2Csans-serif
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
+/*.tab-content .cmb-group-title,
+.tab-content .cmbhandle {
+	display: none;
+}*/
+.tabs-menu {
+	height: auto;
+	float: left;
+	/*clear: both;
+	margin-bottom: 20px !important;*/
+	width:210px;
+	padding:0 !important;
+	box-sizing:border-box;
+	background:#f7f7f7;
+}
+.tabs_content_container{
+	float: left;
+	width: calc(100% - 210px) !important;
+	padding: 10px 25px 0 25px !important;
+    background: #fff !important;
+	box-sizing:border-box;
+    /*box-shadow: rgba(0,0,0,.298039) 0 1px 4px -1px, inset 0 -1px 0 0 rgba(0,0,0,.24) !important;*/
+}
+
+@media screen and (max-width: 640px) {
+	.tabs_content_container{
+		width:100% !important;
+		margin-top:20px !important;
+		box-sizing:border-box;
+	}
+	.tabs-menu{
+		width: 100% !important;
+	}
+	.tabs-menu li {
+		width:50% !important;
+		float:left !important;
+		box-sizing:border-box;
+	}
+}
+
+.tabs-menu li {
+	float: none;
+	padding:20px 10px 20px 10px;
+    margin-left: 0px;
+    list-style: none;
+    background: none;
+    border-bottom: 0px solid #e8ebec;
+    cursor: pointer;
+    margin: 0;
+	transition: box-shadow 0.3s ease;
+}
+
+.tabs-menu li:hover,
+.tabs-menu li.current{
+	background:transparent;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+	-webkit-box-shadow: inset 2px 0px 0px 0px rgba(0,143,237,1);
+	-moz-box-shadow: inset 2px 0px 0px 0px rgba(0,143,237,1);
+	box-shadow: inset 2px 0px 0px 0px rgba(0,143,237,1);	
+}
+
+.tabs-menu li:hover a .cspm_tabs_menu_item,
+.tabs-menu li.current a .cspm_tabs_menu_item{
+	color:#008fed !important;
+}
+
+.tabs-menu li a {
+	padding: 0px 0px 0px 0px;
+	display:inline-block;
+	font-size: 13px;
+	text-decoration:none;
+	position: relative;
+	font-weight:600;	
+}
+
+.tabs-menu li a:focus{
+	box-shadow: none !important;
+}
+
+.cspm_tabs_menu_item{
+	display: inline-block;
+   	padding-left: 45px;
+	color:#171717;
+	transition: color 0.3s ease;
+}
+
+.cspm_tabs_menu_image{
+	display:inline-block; 
+	float:left; 
+	position: absolute; 
+	top: 50%; 
+	left: 10px;
+	margin-top: -10px;
+	filter: brightness(0%);
+	transition: filter 0.3s ease;
+}
+
+.tabs-menu li:hover a .cspm_tabs_menu_image,
+.tabs-menu li.current a .cspm_tabs_menu_image{
+	filter: brightness(100%);
+}
+	
+.tab-content {
+	display: none;
+}
+.tab-content:first-child {
+	display: block;
+}
+
+.cmb2-wrap a.cs-readmore{
+	display: inline-block !important;
+    background: #23d9ec !important;
+    width: auto !important;
+    padding: 3px 10px !important;
+    border-radius: 2px !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    margin: 5px 0 !important;
+	color: #fff !important;
+}
+
+.cmb2-wrap a.cs-readmore:hover{
+    background: #24e1f5 !important;
+}

@@ -1,0 +1,58 @@
+form .cs_files_preview_area ol {
+	padding: 0;
+	margin:0;
+}
+
+form .cs_files_preview_area li {
+	background: #f5f5f5;
+	display: inline-block;
+	margin: 10px 10px 0 0;
+	list-style-type: none;
+	border-radius:2px;
+	box-shadow: rgba(0,0,0,.298039) 0 1px 4px -1px, inset 0 -1px 0 0 rgba(0,0,0,.24);
+	height: 35px;
+	max-height: 35px;	
+}
+
+form .cs_files_preview_area img {
+	height: 35px;
+	border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+	float:left;
+}
+
+form .cs_files_preview_area li p{
+	line-height: 35px;
+	padding: 1px 10px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+	margin:0;
+}
+
+form .cs_files_preview_area p{
+	line-height: 35px;
+	padding: 0px;
+}
+
+form div.cs_open_browser{
+    padding: 10px 10px;
+	font-size:14px !important;
+    cursor: pointer;
+    -webkit-transition: background .2s linear;
+    -moz-transition: background .2s linear;
+    -ms-transition: background .2s linear;
+    -o-transition: background .2s linear;
+    transition: background .2s linear;	
+    background-color: rgba(0,134,237,.97);
+	color:#fff;
+	border-radius:2px;
+	box-shadow: rgba(0,0,0,.298039) 0 1px 4px -1px, inset 0 -1px 0 0 rgba(0,0,0,.24);
+	display:inline-block;
+}
+
+form div.cs_open_browser:hover,
+form div.cs_open_browser:active{
+	background-color: rgba(0,133,220,.97);
+}

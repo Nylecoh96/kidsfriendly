@@ -1,0 +1,475 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cspml\n"
+"POT-Creation-Date: 2023-07-07 12:51+0000\n"
+"PO-Revision-Date: 2016-04-24 13:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: cspml-list-filter.php:255 cspml-list-filter.php:3163
+#: cspml-list-filter.php:3447
+msgid "Filter"
+msgstr ""
+
+#: cspml-list-filter.php:374
+msgid "Since the version 2.0, the \"List & Filter\" settings page has been removed. To create/edit your list & filter, follow these instructions:"
+msgstr ""
+
+#: cspml-list-filter.php:378
+msgid "Create a new map:"
+msgstr ""
+
+#: cspml-list-filter.php:382
+msgid "1. Click on the menu \"Progress Map => Add new map\"."
+msgstr ""
+
+#: cspml-list-filter.php:386
+msgid "2. Select a post type in the metabox \"(Custom) Post Type\", then, Click on the button \"Publish\"."
+msgstr ""
+
+#: cspml-list-filter.php:390
+msgid "3. A new metabox titled \"List & Filter Settings\" will be available. Use the fields on that metabox to create your list & filter."
+msgstr ""
+
+#: cspml-list-filter.php:394
+msgid "Edit an existing map:"
+msgstr ""
+
+#: cspml-list-filter.php:398
+msgid "1. Click on the menu \"Progress Map => All maps\"."
+msgstr ""
+
+#: cspml-list-filter.php:402
+msgid "2. Edit a map on the list of all maps."
+msgstr ""
+
+#: cspml-list-filter.php:406
+msgid "3. Use the fields on the metabox \"List & Filter Settings\" to create/edit your list & filter."
+msgstr ""
+
+#: cspml-list-filter.php:859
+msgid "Resize the map"
+msgstr ""
+
+#: cspml-list-filter.php:1337
+msgid "Loading"
+msgstr ""
+
+#: cspml-list-filter.php:1611 cspml-list-filter.php:1626
+msgid "We couldn't find any results!"
+msgstr ""
+
+#: cspml-list-filter.php:1620
+msgid "Find your locations"
+msgstr ""
+
+#: cspml-list-filter.php:1828 cspml-list-filter.php:2103
+msgid "Visit"
+msgstr ""
+
+#: cspml-list-filter.php:1846 cspml-list-filter.php:1878
+#: cspml-list-filter.php:2120 cspml-list-filter.php:2146
+msgid "Show position on the map"
+msgstr ""
+
+#: cspml-list-filter.php:2361
+#, php-format
+msgid "Switch to %s view"
+msgstr ""
+
+#: cspml-list-filter.php:2437 cspml-list-filter.php:2439
+msgid "Refine Search"
+msgstr ""
+
+#: cspml-list-filter.php:2443
+msgid "Close"
+msgstr ""
+
+#: cspml-list-filter.php:2477 cspml-list-filter.php:2483
+msgid "Sort Listings"
+msgstr ""
+
+#: cspml-list-filter.php:2479 metaboxes/cspml-metabox.php:716
+msgid "Default"
+msgstr ""
+
+#: cspml-list-filter.php:3159 cspml-list-filter.php:3443
+msgid "Reset all filters"
+msgstr ""
+
+#: cspml-list-filter.php:3493 cspml-list-filter.php:4796
+msgid "All"
+msgstr ""
+
+#: cspml-list-filter.php:3690
+msgid "To"
+msgstr ""
+
+#: cspml-list-filter.php:4064
+msgid "Any"
+msgstr ""
+
+#: cspml-list-filter.php:4470
+msgid "Start date"
+msgstr ""
+
+#: cspml-list-filter.php:4471
+msgid "End date"
+msgstr ""
+
+#: cspml-list-filter.php:4866
+msgid "Select a date"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:100
+msgid "List & Filter Settings"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:271
+msgid "The Map"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:317
+msgid "The Filter"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:327
+msgid "Search Filter position"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:329
+msgid "Choose the position of the search filter on a page. Defaults to \"Left\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:331 metaboxes/cspml-metabox.php:884
+msgid "Left"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:332 metaboxes/cspml-metabox.php:886
+msgid "Right"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:373
+msgid "The List"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:383
+msgid "Initial view"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:385
+msgid "Select the initial view. Defaults to \"List\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:387
+msgid "List"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:388
+msgid "Grid"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:395
+msgid "Grid columns"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:397
+msgid "Select the number of items to display in a single row."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:399
+msgid "One item/column"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:400
+msgid "Two items/columns"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:401
+msgid "Three items/columns"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:402
+msgid "Four items/columns"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:403
+msgid "Six items/columns"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:451
+msgid "Options Bar Visibility"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:453
+msgid "Show/Hide the Options bar. The \"Options bar\" is the top area containing the \"View options\", the \"Sort by\" option and the \"Posts count\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:455 metaboxes/cspml-metabox.php:476
+#: metaboxes/cspml-metabox.php:497
+msgid "Show"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:456 metaboxes/cspml-metabox.php:477
+#: metaboxes/cspml-metabox.php:498
+msgid "Hide"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:463
+msgid "View options settings"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:472
+msgid "View Options Visibility"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:474
+msgid "Show/Hide the \"View options\". The \"View options\" is the botton in the Options bar that allows switching from Grid view to List view."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:484
+msgid "Posts count settings"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:493
+msgid "Posts Count Visibility"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:495
+msgid "Show/Hide the \"Posts count\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:505
+msgid "Posts count label"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:561
+msgid "List Item Title"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:573
+msgid "List Item Description"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:700
+msgid "Turn On/Off the sort option"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:702
+msgid "Enable/Disable the sort option."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:704
+msgid "Enable"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:705
+msgid "Disable"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:712
+msgid "Default Sort Options"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:714
+msgid "Select the sort options to use from the available options."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:717
+msgid "Date (Newest first)"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:718
+msgid "Date (Oldest first)"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:719
+msgid "Title A to Z"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:720
+msgid "Title Z to A"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:730
+msgid "Sort options display order"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:731
+msgid "Change the display order of the sort options."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:735
+msgid "Default sort option"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:736
+msgid "Custom sort options"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:747 metaboxes/cspml-metabox.php:1566
+msgid "Custom field {#}"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:748 metaboxes/cspml-metabox.php:1567
+msgid "Add New Custom Field"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:749 metaboxes/cspml-metabox.php:1568
+msgid "Remove Custom Field"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:855
+msgid "Number of posts per page"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:856
+msgid "Enter the number of the posts per page. Defaults to the number selected in \"Settings / Reading / Blog pages show at most\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:867
+msgid "Pagination position"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:869
+msgid "Select the position of the pagination in the page. Defaults to \"Bottom\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:871
+msgid "Top"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:872
+msgid "Bottom"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:873
+msgid "Both"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:880
+msgid "Pagination alignment"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:882
+msgid "Select the alignment of the pagination in the page. Defaults to \"Center\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:885
+msgid "Center"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:893
+msgid "Previous page text"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:894
+msgid "Enter the text that appears in the pagination button \"Previous\". Defaults to \"&laquo;\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:901
+msgid "Next page text"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:902
+msgid "Enter the text that appears in the pagination button \"Next\". Defaults to \"&raquo;\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:909
+msgid "Show all pages"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:911
+msgid "Select True to show all of the pages in the pagination instead of a short list of pages near the current page. Defaults to \"False\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:913 metaboxes/cspml-metabox.php:949
+msgid "Yes"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:914 metaboxes/cspml-metabox.php:950
+msgid "No"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:945
+msgid "Search Filter option"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:947
+msgid "Select \"Yes\" to enable this option in the plugin. Defaults to \"No\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:957
+msgid "Search Filter display option"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:959
+msgid "Choose whether you want to hide/show the filter on page load. Defaults to \"Show on page load\"."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:961
+msgid "Show on page load"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:962
+msgid "Hide on page load"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:969
+msgid "Filter & Reset buttons position"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:982
+msgid "Filter fields display order"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:983
+msgid "Change the display order of the filter fields."
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:987
+msgid "keyword"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:988
+msgid "Posts publish date"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:989
+msgid "Taxonomies"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:990
+msgid "Custom Fields"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:1108
+msgid "Datepicker parameters"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:1352
+msgid "Taxonomy {#}"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:1353
+msgid "Add New Taxonomy"
+msgstr ""
+
+#: metaboxes/cspml-metabox.php:1354
+msgid "Remove Taxonomy"
+msgstr ""
+
+#: progress-map-list.php:317
+msgid "Documentation"
+msgstr ""

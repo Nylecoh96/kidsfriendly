@@ -1,0 +1,93 @@
+.filter>* {
+
+    width: 20%;
+
+}
+
+
+
+.filter {
+
+    gap: 0 10px;
+
+    margin-bottom: 40px;
+
+}
+
+
+
+.filter li {
+
+    list-style: none;
+
+}
+
+
+
+.dropdown:hover>.dropdown-menu {
+
+    display: block;
+
+}
+
+
+
+.dropdown>.dropdown-toggle:active {
+
+    /*Without this, clicking will make it sticky*/
+
+    pointer-events: none;
+
+}
+
+
+
+.filter svg {
+
+    width: 40px;
+
+    height: 50px;
+
+}
+
+
+
+.white_box.p-5.rounded-3.bg-light {
+
+    /* From https://css.glass */
+
+    background: rgba(255, 255, 255, 0.52)  !important;
+
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.1);
+
+    backdrop-filter: blur(5px) !important;
+
+    -webkit-backdrop-filter: blur(5px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+
+
+
+section.most_popular .card.rounded-4.p-4{
+
+    background: rgb(255 255 255 / 12%) !important;
+
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+    backdrop-filter: blur( 20px );
+
+    -webkit-backdrop-filter: blur( 20px );
+
+    border-radius: 10px;
+
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+div#map{
+    z-index: -1;
+}

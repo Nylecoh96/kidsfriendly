@@ -1,0 +1,365 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.hidden{
+    display:none;
+}
+div#cspml_listings_container {
+    display: none;
+}
+div#previewContainer img {
+    margin: 2px;
+}
+.spacer.mt-2.mb-2 {
+    border: 1px solid gray;
+}
+.show{
+    display:block;
+}
+.elementor-element.elementor-element-621865b.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: 0;
+}
+form#registration-form input, form#registration-form textarea, form#registration-form select {
+    margin-bottom: 10px;
+}
+button.user-registration-submit-Button.btn.button {
+    background-color: #5E487E;
+    color: #FEFEFE;
+}
+#store-post-submission .form-group {
+    margin-bottom: 10px;
+}
+span.unbookmark-resto.like-btn.fav img,
+span.unbookmark-resto.like-btn.not-fav img {
+    width: auto;
+}
+form.noptin-optin-form.noptin-form-single-line {
+    text-align: left;
+}
+
+.noptin-big.noptin-padded {
+    padding: 0;
+    margin-top: 10px;
+}
+#store-post-submission input[type="checkbox"] {
+    transform: scale(1.6);
+    margin: 10px 12px;
+}
+
+button.slick-arrow {
+    background: unset;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 45px !important;
+}
+/*button.slick-next.slick-arrow, button.slick-prev.slick-arrow {*/
+/*    display: none !important;*/
+/*}*/
+.ast-container {
+   max-width: 1210px;
+}
+body {
+    background-image: url("https://kidsfriendly.world/wp-content/uploads/2024/03/Group-1-2.png") !important;
+    background-size: cover;
+    background-color: white !important;
+    background-repeat: no-repeat;
+}
+.scrolled .ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+    background-color: #000000cc;
+}
+.newsletter-title {
+    color: #679f6e;
+    font-weight: 500;
+}
+section#block-8 {
+    display: none;
+}
+footer p, footer a.menu-link{
+    color: #679f6e !important;
+    font-weight: 500;
+}
+.alert-message {
+    position: absolute;
+    background: green;
+    color: white;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+    line-height: 1.8;
+    border-radius: 10px;
+    right: 0;
+    z-index: 9999999999999;
+}
+.container-xl {
+    padding: 0;
+    background-color: #ffffff00 !important;
+    margin: 0;
+}
+.page-id-16 .bg-light-subtle {
+    background-color: unset !important;
+}
+.scrolled a.menu-link {
+    color: white !important;
+    font-weight: 700 !important;
+}
+.card-body {
+    height: 440px;
+}
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+    border:0;
+    background-color: unset;
+}
+.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-2-equal.ast-builder-grid-row-tablet-2-equal.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+    background: unset;
+    border: 0;
+}
+*, h1 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+p {
+    line-height: 2;
+}
+div#card-12 {
+    padding: 18px 48px !important;
+}
+.elementor-element.elementor-element-70735e3.e-flex.e-con-boxed.e-con.e-parent {
+    margin-top: 70px;
+}
+#grid-card-kids .e-con-inner .elementor-element {
+    margin: 0px;
+    height: 100%;
+}
+#grid-card-kids .e-con-inner .elementor-element {
+    margin: 5px 7px !important;
+    width:366px;
+}
+.tnp-field {
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+}
+input.tnp-submit {
+    background: #5E487E !important;
+    border-radius: 9px;
+}
+.card-footer {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    left:0;
+    margin-bottom: 2px;
+}
+ul#astra-footer-menu li a {
+    color: white;
+}
+div#card-8 {
+    position: relative;
+    top: -75px;
+    left: 7px;
+}
+
+.esz_post_link a {
+    color: white;
+    text-decoration: unset !important;
+}
+.home .esz_slide_box {
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#home-post-sec img.esz_post_thumb_img.elementor-animation- {
+    height: unset;
+}
+#home-post-sec .esz_post_thumb {
+    margin-bottom: 0;
+}
+#home-post-sec .esz_post_thumb {
+    margin-bottom: -110px;
+}
+.esz_post_link {
+    background: #679F6E;
+    padding: 13px;
+    border-radius: 7px;
+    width: 100%;
+    text-align: center;
+}
+/*1*/
+div#card-4 {
+    position: relative;
+    top: -280px;
+    left: -3px;
+}
+div#card-7 {
+    position: relative;
+    top: -103px;
+    left: -10px;
+}
+div#card-22 {
+    position: relative;
+    top: -250px;
+}
+div#card-10 {
+    position: relative;
+    top: -465px;
+    left: -2px;
+}
+div#card-2 {
+    position: relative;
+    left: -4px;
+}
+div#card-12 {
+    position: relative;
+    top: -73px;
+    left: 11px;
+}
+/*2*/
+div#card-5 {
+    position: relative;
+    top: -155px;
+    left: 3px;
+}
+div#card-8 {
+    position: relative;
+    top: -145px;
+    left: 4px;
+}
+div#card-1 {
+    height: 169px !important;
+}
+div#card-8 {
+    height: 366px !important;
+}
+div#card-9 {
+    height: 366px !important;
+}
+div#card-11 {
+    position: relative;
+    top: -135px;
+    left: 4px;
+}
+div#card-13 {
+    position: relative;
+    top: -452px;
+    height: 336px !important;
+    left: 0px;
+}
+div#card-1 {
+    top: 5px;
+}
+div#card-133 {
+    position: relative;
+    top: -280px;
+    left: -2px;
+}
+.home .elementor-widget-container {
+    color: #5a5a5a;
+}
+
+div#card-3 img.attachment-full.size-full.wp-image-134 {
+    height: 455px;
+}
+/*3*/
+div#card-9 {
+    position: relative;
+    top: -80px;
+    left: 10px;
+}
+div#card-12 {
+    position: relative;
+    top: -72px;
+    left: 11px;
+    height: 360px !important;
+}
+.noptin-inpost-main-wrapper.noptin-form-id-700.noptin-optin-main-wrapper {
+    background: unset;
+}
+
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+    background: unset !important;
+    min-height: 0px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.logged-in .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-button-1 {
+    display: none;
+}
+.site-header-primary-section-right-center.site-header-section.ast-flex.ast-grid-right-center-section {
+    display: none;
+}
+.noptin-form-footer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.noptin-form-header.no-image {
+    display: none;
+}
+input.user-registration-Button.button {
+    border-radius: 10px;
+    width: 100%;
+}
+div#user-registration-form-446 button.btn.button.ur-submit-button {
+    width: 100%;
+    background: #5e487e;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 {
+    display: none;
+}
+
+.logged-in .ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 {
+    display: block;
+}
+.ast-builder-layout-element.ast-flex.site-header-focus-item.ast-header-html-1 a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: #5e487e;
+    border-radius: 10px;
+    color: white;
+}
+
+/*REGISTRATION*/
+/*div#user-registration-form-446 button.btn.button.ur-submit-button {*/
+/*    display: none;*/
+/*}*/
+/*#register-continue-button a.elementor-button.elementor-button-link.elementor-size-sm {*/
+/*    width: 95%;*/
+/*}*/
+
+
+@media only screen and (max-width: 1024px) {
+#grid-card-kids .e-con-inner .elementor-element {
+    margin: 5px 7px !important;
+    height: 100% !important;
+}
+.elementor-element.elementor-element-544f59c.e-flex.e-con-boxed.e-con.e-parent {
+    margin: 0;
+}
+#grid-card-kids .e-con-inner div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#grid-card-kids .e-con-inner .elementor-element{
+    width:100% !important;
+    text-align: center;
+}
+
+
+}

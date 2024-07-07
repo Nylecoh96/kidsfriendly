@@ -1,0 +1,34 @@
+{
+    "kidsfriendly.world": {
+        "siteId": "rURQuVtIwVmTKsDHKHSvsDRmDTbRLWca",
+        "siteSecret": "W3LvSv58uu6nRgjJHEZxrjTL7xthdxCEbNzhyd5nE7hIxMKx6v1Ek9lmTDkK65za",
+        "blogId": 1,
+        "compression": true,
+        "webhookToken": "1783fa60fabfc65c29a93e1f837fbf53",
+        "home_url": "https:\/\/kidsfriendly.world",
+        "admin_url": "https:\/\/kidsfriendly.world\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.15.3",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": "base",
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": []
+    },
+    "config_path": "bff6f9cc9507595bae77cd909f623eab"
+}

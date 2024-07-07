@@ -1,0 +1,527 @@
+2024-05-20T14:17:34+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-05-20T14:20:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/restaurant-slider.php:73
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(117): include()
+#1 /home/o7bkohrh318j/public_html/wp-includes/shortcodes.php(433): restaurant_slider_kids()
+#2 [internal function]: do_shortcode_tag()
+#3 /home/o7bkohrh318j/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(137): do_shortcode()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2315): Elementor\Widget_Shortcode->render()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(634): Elementor\Controls_Stack->render_by_mode()
+#7 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(775): Elementor\Widget_Base->render_content()
+#8 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Widget_Base->print_content()
+#9 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#10 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#11 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/element-base.php(1375): Elementor\Element_Base->print_element()
+#12 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/base/element-base.php(464): Elementor\Element_Base->print_content()
+#13 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/core/base/document.php(1795): Elementor\Element_Base->print_element()
+#14 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/core/base/document.php(1183): Elementor\Core\Base\Document->print_elements()
+#15 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/frontend.php(1157): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#16 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/includes/frontend.php(1052): Elementor\Frontend->get_builder_content()
+#17 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content()
+#18 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#19 /home/o7bkohrh318j/public_html/wp-includes/post-template.php(256): apply_filters()
+#20 /home/o7bkohrh318j/public_html/wp-content/themes/astra/template-parts/single/content-header.php(33): the_content()
+#21 /home/o7bkohrh318j/public_html/wp-includes/template.php(812): require('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#23 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(206): locate_template()
+#24 /home/o7bkohrh318j/public_html/wp-content/themes/astra/inc/template-parts.php(376): get_template_part()
+#25 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): astra_entry_content_single_page_template()
+#26 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#27 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#28 /home/o7bkohrh318j/public_html/wp-content/themes/astra/inc/core/theme-hooks.php(452): do_action()
+#29 /home/o7bkohrh318j/public_html/wp-content/themes/astra/template-parts/content-page.php(26): astra_entry_content_single_page()
+#30 /home/o7bkohrh318j/public_html/wp-includes/template.php(812): require('/home/o7bkohrh3...')
+#31 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#32 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(206): locate_template()
+#33 /home/o7bkohrh318j/public_html/wp-content/themes/astra/inc/class-astra-loop.php(111): get_template_part()
+#34 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Astra_Loop->template_parts_page()
+#35 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#36 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#37 /home/o7bkohrh318j/public_html/wp-content/themes/astra/inc/class-astra-loop.php(199): do_action()
+#38 /home/o7bkohrh318j/public_html/wp-content/themes/astra/inc/class-astra-loop.php(176): Astra_Loop->loop_markup()
+#39 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Astra_Loop->loop_markup_page()
+#40 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#41 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#42 /home/o7bkohrh318j/public_html/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action()
+#43 /home/o7bkohrh318j/public_html/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#44 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#45 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#46 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#47 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/restaurant-slider.php on line 73
+
+2024-05-20T14:20:51+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-05-20T14:21:51+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-05-20T14:30:29+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-05-20T14:31:07+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-05-20T18:08:54+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "ActionScheduler_IntervalSchedule" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-05-20T18:21:01+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, bool given in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php:3701
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php(3701): array_merge()
+#1 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): CSProgressMap->cspm_regenerate_map_markers()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/o7bkohrh318j/public_html/wp-admin/admin.php(419): do_action()
+#5 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 3701
+
+2024-05-20T18:21:03+00:00 CRITICAL Uncaught TypeError: array_merge(): Argument #1 must be of type array, bool given in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php:3701
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php(3701): array_merge()
+#1 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): CSProgressMap->cspm_regenerate_map_markers()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/o7bkohrh318j/public_html/wp-admin/admin.php(419): do_action()
+#5 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/progress-map/progress-map.php on line 3701
+
+2024-05-26T15:11:46+00:00 CRITICAL Uncaught Error: The script tried to modify a property on an incomplete object. Please ensure that the class definition "FrmSettings" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php:355
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(341): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(222): Inpsyde\SearchReplace\Database\Replace->recursive_unserialize_replace()
+#2 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php(93): Inpsyde\SearchReplace\Database\Replace->replace_values()
+#3 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(214): Inpsyde\SearchReplace\Database\Replace->run_search_replace()
+#4 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/SearchReplace.php(131): Inpsyde\SearchReplace\Page\SearchReplace->run_replace()
+#5 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(50): Inpsyde\SearchReplace\Page\SearchReplace->save()
+#6 /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Page/Manager.php(125): Inpsyde\SearchReplace\Page\Manager->save()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Inpsyde\SearchReplace\Page\Manager->render()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-admin/tools.php(40): require_once('/home/o7bkohrh3...')
+#12 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/search-and-replace/inc/Database/Replace.php on line 355
+
+2024-06-17T08:29:41+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:41+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:41+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:41+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:41+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
+2024-06-17T08:29:42+00:00 CRITICAL Uncaught Error: Call to a member function get_component() on null in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php:442
+Stack trace:
+#0 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(301): Elementor\Modules\Ai\Module->get_ai_app()
+#1 /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php(182): Elementor\Modules\Ai\Module->get_ai_connect_url()
+#2 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\Ai\Module->enqueue_ai_media_library()
+#3 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/o7bkohrh318j/public_html/wp-includes/media.php(4957): do_action()
+#6 /home/o7bkohrh318j/public_html/wp-content/themes/astra-child/functions.php(23): wp_enqueue_media()
+#7 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): child_enqueue_styles()
+#8 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/o7bkohrh318j/public_html/wp-includes/script-loader.php(2265): do_action()
+#11 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts()
+#12 /home/o7bkohrh318j/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/o7bkohrh318j/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#14 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(3050): do_action()
+#15 /home/o7bkohrh318j/public_html/wp-content/themes/astra/header.php(31): wp_head()
+#16 /home/o7bkohrh318j/public_html/wp-includes/template.php(810): require_once('/home/o7bkohrh3...')
+#17 /home/o7bkohrh318j/public_html/wp-includes/template.php(745): load_template()
+#18 /home/o7bkohrh318j/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/o7bkohrh318j/public_html/wp-content/themes/astra/404.php(15): get_header()
+#20 /home/o7bkohrh318j/public_html/wp-includes/template-loader.php(106): include('/home/o7bkohrh3...')
+#21 /home/o7bkohrh318j/public_html/wp-blog-header.php(19): require_once('/home/o7bkohrh3...')
+#22 /home/o7bkohrh318j/public_html/index.php(17): require('/home/o7bkohrh3...')
+#23 {main}
+  thrown in /home/o7bkohrh318j/public_html/wp-content/plugins/elementor/modules/ai/module.php on line 442
+
